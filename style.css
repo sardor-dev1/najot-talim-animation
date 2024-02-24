@@ -1,0 +1,160 @@
+body {
+    background-color: #021823;
+    overflow: hidden;
+}
+
+.najot-logo {
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    margin: 250px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.n {
+    top: 50px;
+}
+
+.najot__img-wrapp {
+    width: 300px;
+    text-align: center;
+    animation-name: img-ball;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+    /* animation-delay: 1.5s; */
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+.najot__img {
+    width: 100%;
+
+}
+
+.logo {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: 500;
+    margin-top: -200px;
+}
+
+.n, .m {
+    animation: n-m  linear 0s forwards;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-delay: 2.1s;
+}
+
+.a, .i {
+    animation-name: a-i ;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-delay: 2.2s;
+}
+
+.j, .l {
+    animation-name: j-l ;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-delay: 2.3s;
+}
+
+.o, .right-a {
+    animation-name: o-right_a ;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-delay: 2.4s;
+}
+
+.t {
+    animation-name: t ;
+    animation-fill-mode: forwards;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+}
+
+@keyframes t {
+    0% {
+        margin-top: -200px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes o-right_a {
+    0% {
+        margin-top: -200px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes j-l {
+    0% {
+        margin-top: -200px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes a-i {
+    0% {
+        margin-top: -200px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes n-m {
+    0% {
+        margin-top: -200px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+
+@keyframes img-ball {
+    0% {
+        margin-top: -200px;
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    15% {
+        margin-top: -200px;
+    }
+
+    50% {
+        width: 400px;
+        margin-top: 100px;
+    }
+
+
+    100% {
+        width: 300px;
+        margin-top: 0;
+    }
+}
